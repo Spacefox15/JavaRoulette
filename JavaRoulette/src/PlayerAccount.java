@@ -10,9 +10,11 @@ public class PlayerAccount {
     public String getPlayerName(){
         return this.playerName;
     }
+
     public double getaccountBalance(){
         return this.accountBalance;
     }
+
     public String playerInfo(){
         return 
         "\n************Player Info************" +
@@ -21,7 +23,6 @@ public class PlayerAccount {
         "\n***********************************\n";
     }
     
-
     @Override public String toString(){
         return "Player Name: " + playerName + 
         "\nAccount Balance: " + accountBalance;
